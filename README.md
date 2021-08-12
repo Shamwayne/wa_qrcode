@@ -8,5 +8,5 @@ It's a Whatsapp Code Reader bot for Twilio. This is code for a whatsapp bot that
 
 - Pyzbar: on windows, ```pip install pyzbar``` works fine, but you'll need to also install Visual C++ 13 dlls which can be found on the microsoft site at https://www.microsoft.com/en-US/download/details.aspx?id=40784 (download and run). This is critical because most likely it is not installed on most Windows 10 PC's and will lead to a ```ImportError``` or a ```DecodeError``` and pyzbar will be unable to decode the images for you
 - OpenCV: preferably should be pre-installed if an anaconda distribution was used. If not however, should still work fine if pip installed as long as you have Visual C++ 15 distribution installed.
-- Numpy
+- Numpy: preferably pre-installed if an anaconda distribution was used
 
